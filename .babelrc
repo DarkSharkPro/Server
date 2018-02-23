@@ -1,0 +1,16 @@
+{
+	"presets": [["env", {"modules": false}], "react"],
+	"plugins": [
+				"react-hot-loader/babel", 
+				"transform-regenerator",
+				["transform-runtime", {
+				     "helpers": false,
+				     "polyfill": false,
+				     "regenerator": true,
+				     "moduleName": "babel-runtime"
+				}],
+				"transform-object-rest-spread",
+				"transform-class-properties",
+				"transform-async-to-generator"
+				]
+}
